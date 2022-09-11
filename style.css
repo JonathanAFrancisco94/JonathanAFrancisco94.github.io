@@ -665,6 +665,12 @@ a{
   width: 50px;
 }
 
+
+.upwork-icon{
+  float: left; 
+  margin-top: 5px !important
+}
+
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -675,10 +681,26 @@ a{
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 375px) {
   .text {
     font-size: 11px;
   }
+  
+
+  .media-icons a {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.media-icons {
+  margin-top: 25px;
+  margin-left: 12px;
+}
+.upwork-icon{
+  float: left;
+  margin-top: 11px !important;
+}
 }
 
 
@@ -697,6 +719,19 @@ a{
     text-align: center;
     width: 100%;
   }
+
+  
+.learning .content .card {
+  width: 340px;
+  margin: 5px;
+}
+
+.learning .content .card .card-img {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+}
 }
 
 .awesome {
